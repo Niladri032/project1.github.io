@@ -1,0 +1,126 @@
+@media(min-width:1700px){
+    .container {max-width:1540px;}
+}
+
+@media (min-width: 768px) {
+    .banner-slide .swiper .swiper-pagination {
+        display: grid;
+        bottom: 50%;
+        left: 90%;
+        z-index: 9;
+        transform: translateY(50%);
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-slide .swiper .swiper-pagination .swiper-pagination-bullet {
+        margin: 0 10px 0 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-slide .swiper-slide .banner-cont h1 {
+        font-size: 34px !important;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner-slide .swiper-slide .banner-cont h1 {
+        font-size: 44px !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner-slide .swiper-slide .banner-cont h1 {
+        font-size: 55px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-slide .swiper-slide .banner-cont p {
+        font-size: 14px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-slide .swiper-slide .banner-cont {
+        text-align: left;
+    }
+}
+
+@media (max-width: 991px) {
+    .navArea nav.navbar .navbar-brand {
+        order: 1;
+    }
+}
+@media (max-width: 991px) {
+    .navArea nav.navbar .navbar-nav .nav-item .nav-link {
+        margin: 6px;
+        color: #fff;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navArea nav.navbar .navbar-nav .nav-item .nav-link {
+        font-size: 14px;
+        padding: 6px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navArea nav.navbar .navbar-nav .nav-item .btn-1 {
+        margin-left: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navArea nav.navbar .navbar-nav .nav-item .btn-1 {
+        margin: 6px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navArea nav.navbar .navbar-nav {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (max-width: 991px) {
+    .navArea nav.navbar .signupButton .btn-1 {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .navArea nav.navbar .signupButton {
+        order: 2;
+    }
+}
+@media (max-width: 991px) {
+    .navArea nav.navbar .navbar-toggler {
+        order: 3;
+    }
+}
+
+@media (max-width: 991px) {
+    .navArea nav.navbar .navbar-collapse {
+        z-index: 999;
+        opacity: 0.95;
+        background-color: #252525;
+        min-width: 80%;
+        padding-bottom: 16px;
+        margin-bottom: 10px;
+        order: 3;
+    }
+}
+@media (max-width:1439px){
+    .quotesArea .contArea .qoutes {
+        min-height: 360px;
+    }
+    .practiseArea .content .textArea {
+        font-size: 15px;
+    }
+}
